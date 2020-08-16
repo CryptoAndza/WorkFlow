@@ -1,8 +1,9 @@
 package com.example.workflow
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.view.View
 
 class Activity2 : AppCompatActivity() {
 
@@ -10,13 +11,15 @@ class Activity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
 
-        // get reference to the second button
-        val button =findViewById<Button>(R.id.button2)
-        // attach listener to the button
-        button.setOnClickListener {
-            setContentView(R.layout.activity_main)
-
-        }
-
     }
+
+    fun onClickBack(view: View)
+    {
+        // onClickBack will trigger new activity to open
+        // Create an Intent to start the MainActivity
+
+        val newIntent2 = Intent (this, MainActivity::class.java)
+        startActivity(newIntent2)
+    }
+
 }

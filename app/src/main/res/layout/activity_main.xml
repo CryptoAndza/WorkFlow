@@ -29,6 +29,7 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="137dp"
         android:layout_marginTop="313dp"
+        android:onClick="onClickNext"
         android:text="@string/Activity_2_screen" />
 
 </RelativeLayout>
