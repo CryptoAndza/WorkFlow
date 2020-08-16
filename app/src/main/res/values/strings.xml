@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WorkFlow</string>
+    <string name="welcome_to_workflow">Welcome to WorkFlow</string>
 </resources>
