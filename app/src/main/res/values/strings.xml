@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">LMH WorkFlow</string>
-    <string name="welcome_to_workflow">Welcome to WorkFlow of LMH</string>
-    <string name="Activity_1_screen">Open Activity 1</string>
-    <string name="Activity_2_screen">Open Activity 2</string>
+    <string name="app_name">LMH WorkFlow top bar</string>
+    <string name="welcome_to_workflow">Welcome to WorkFlow of LMH Activity 1 Main Screen</string>
+    <string name="Screen2">Welcome to screen Activity 2</string>
+    <string name="Screen3">Welcome to screen Activity 3</string>
+    <string name="Screen4">Welcome to screen Activity 4</string>
+    <string name="Activity_1_screen">Open Activity 2</string>
+    <string name="Activity_2_screen">Open Activity 3</string>
+    <string name="Activity_3_screen">Open Activity 4</string>
+    <string name="Activity_Main_screen">Main Screen</string>
 </resources>
