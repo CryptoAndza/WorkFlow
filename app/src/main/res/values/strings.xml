@@ -8,4 +8,6 @@
     <string name="Activity_2_screen">Open Activity 3</string>
     <string name="Activity_3_screen">Open Activity 4</string>
     <string name="Activity_Main_screen">Main Screen</string>
+    <string name="Intro_screen">Welcome to LMH</string>
+    <string name="Logo">Red Shield</string>
 </resources>
