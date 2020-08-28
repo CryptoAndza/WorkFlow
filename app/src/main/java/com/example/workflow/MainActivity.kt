@@ -14,16 +14,35 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
+    //internal var score = 0
+
+   // internal lateinit var createJob: Button
+    //internal lateinit var gameScoreTextView: TextView
+   // internal lateinit var timeLeftTextView: TextView
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // createJob = findViewById(R.id.createJob)
+        // gameScoreTextView = findViewById(R.id.gameScoreTextView)
+        // timeLeftTextView = findViewById(R.id.timeLeftTextView)
+
+        //  createJob.setOnClickListener { view ->
+        //     incrementScore()
 
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.Maps) as SupportMapFragment
         mapFragment.getMapAsync(this)
-
     }
+
+
+   // private fun incrementScore() {
+   //     score += 1
+    //    val newScore = getString(R.id.yourScore, score)
+   //     gameScoreTextView.text = newScore
+   // }
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
@@ -66,4 +85,5 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         val newIntent = Intent (this, MapsActivity::class.java)
         startActivity(newIntent)
     }
+
 }

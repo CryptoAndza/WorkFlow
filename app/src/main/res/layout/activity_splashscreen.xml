@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity"
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/gradient_background"
+    android:textAlignment="center"
+    tools:context=".SplashScreenActivity">
 
     <ImageView
-        android:layout_width="228dp"
-        android:layout_height="199dp"
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:scaleType="centerInside"
         android:src="@drawable/ic_baseline_verified_user_24"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,16 +20,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_to_workflow"
+        android:layout_width="340dp"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782" />
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.500"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="@string/welcome_to_workflow"
+        android:textColor="@color/White"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

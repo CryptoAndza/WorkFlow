@@ -1,15 +1,16 @@
 <resources>
-    <string name="app_name">LMH WorkFlow top bar</string>
-    <string name="welcome_to_workflow">Welcome to WorkFlow of LMH Activity 1 Main Screen</string>
-    <string name="Screen2">Welcome to screen Activity 2</string>
-    <string name="Screen3">Welcome to screen Activity 3</string>
-    <string name="Screen4">Welcome to screen Activity 4</string>
-    <string name="Activity_1_screen">Open Activity 2</string>
-    <string name="Activity_2_screen">Open Activity 3</string>
-    <string name="Activity_3_screen">Open Activity 4</string>
+    <string name="app_name">LMH WorkFlow</string>
+    <string name="welcome_to_workflow">Project WorkFLow Select Project</string>
+    <string name="Screen2">Project WorkFlow Project Overview</string>
+    <string name="Screen3">Project WorkFlow View Project</string>
+    <string name="Screen4">Project WorkFlow Create Project</string>
+    <string name="Activity_1_screen">Project Overview 2</string>
+    <string name="Activity_2_screen">View Project 3</string>
+    <string name="Activity_3_screen">Create Project 4</string>
     <string name="Activity_Main_screen">Main Screen</string>
     <string name="ViewMap">ViewMaP</string>
     <string name="Intro_screen">Welcome to LMH</string>
     <string name="Logo">Red Shield</string>
     <string name="title_activity_maps">Map</string>
+    <string name="CreateAJob">Create a Job</string>
 </resources>
