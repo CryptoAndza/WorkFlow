@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.500"
         android:textSize="18sp"
         android:textAlignment="center"
-        android:text="@string/welcome_to_workflow"
+        android:text="@string/app_name"
         android:textColor="@color/White"
         />
 

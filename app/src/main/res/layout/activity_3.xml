@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:textSize="18sp"
         android:text="@string/Screen3"
-        android:background="@color/Red"
+        android:background="@drawable/custom_button"
         android:textColor="@color/White"/>
 
     <Button
@@ -37,7 +37,7 @@
         android:layout_marginBottom="10dp"
         android:onClick="onClickBack"
         android:text="@string/Activity_Main_screen"
-        android:background="@color/Red"
+        android:background="@drawable/custom_button"
         android:textColor="@color/White"/>
 
     <Button
@@ -52,7 +52,7 @@
         android:layout_marginEnd="10dp"
         android:onClick="onClickNext"
         android:text="@string/Activity_1_screen"
-        android:background="@color/Red"
+        android:background="@drawable/custom_button"
         android:textColor="@color/White"/>
 
     <Button
@@ -69,7 +69,7 @@
         android:layout_marginBottom="10dp"
         android:onClick="onClickNext3"
         android:text="@string/Activity_3_screen"
-        android:background="@color/Red"
+        android:background="@drawable/custom_button"
         android:textColor="@color/White"/>
 
     <androidx.core.widget.NestedScrollView

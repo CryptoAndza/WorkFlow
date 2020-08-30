@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">LMH WorkFlow</string>
-    <string name="welcome_to_workflow">Project WorkFLow Select Project</string>
-    <string name="Screen2">Project WorkFlow Project Overview</string>
-    <string name="Screen3">Project WorkFlow View Project</string>
-    <string name="Screen4">Project WorkFlow Create Project</string>
+    <string name="welcome_to_workflow">Select Project</string>
+    <string name="Screen2">Project Overview</string>
+    <string name="Screen3">View Project</string>
+    <string name="Screen4">Create Project</string>
     <string name="Activity_1_screen">Project Overview 2</string>
     <string name="Activity_2_screen">View Project 3</string>
     <string name="Activity_3_screen">Create Project 4</string>
@@ -12,5 +12,9 @@
     <string name="Intro_screen">Welcome to LMH</string>
     <string name="Logo">Red Shield</string>
     <string name="title_activity_maps">Map</string>
-    <string name="CreateAJob">Create a Job</string>
+    <string name="tapMe">Tap Me!</string>
+    <string name="yourScore">Your Score: %1$d</string>
+    <string name="timeLeft">Time Left: %1$d</string>
+    <string name="location_of_project">Location of Project</string>
+
 </resources>
