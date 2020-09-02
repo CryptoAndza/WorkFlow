@@ -117,33 +117,8 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:id="@+id/gameScoreTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="6dp"
-                android:text="@string/yourScore"
-                android:textAlignment="center" />
-
-            <Button
-                android:id="@+id/tapMeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                android:background="@drawable/custom_button"
-                android:text="@string/tapMe"
-                android:textAlignment="center"
-                android:textColor="@color/White"
-                tools:text="tap me" />
-
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/query"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
@@ -152,14 +127,8 @@
                 android:layout_marginBottom="6dp"
                 android:ems="10"
                 android:hint="@string/location_of_project"
-                android:inputType="textPersonName"
+                android:inputType="text"
                 android:autofillHints="" />
-
-            <TextView
-                android:id="@+id/timeLeftTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/timeLeft" />
 
         </LinearLayout>
     </ScrollView>

@@ -13,6 +13,8 @@ class Activity2 : AppCompatActivity() {
 
     }
 
+    
+
     fun onClickBack(view: View)
     {
         // onClickBack will trigger new activity to open
